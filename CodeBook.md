@@ -1,14 +1,17 @@
 The run_analysis.R script loads and transforms the UCI  Human Activity dataset into a tidy dataset.
 
+
 Variables
 1. Test data: 30% of data, 2947 observations of 561 variables
 2. Train data: 70% of data, 7352 observations of 561 variables
 3. Activity: 6 activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 4. Features: 561 variables for which data was collected for each of 30 volunteers; only mean and std are of interest
 
+
 The Data
 30 volunteers each performed the 6 activities wearing a smartphone. Using the accelerometer an gyroscope, a number of measurements were
 captured and split two two groups, test and train.
+
 
 Steps and Transformations
 1. Load packages
